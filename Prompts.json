@@ -10,5 +10,9 @@
     {
         "key": "SQL生成",
         "value": "作为一个数据库专家，请回答我关于数据库查询的相关问题。在{postgers}数据库里我有{1}张表，创建表的语句为：\n```\nCREATE TABLE IF NOT EXISTS tasks\n    (id SERIAL PRIMARY KEY,\n    task TEXT NOT NULL,\n    completed BOOLEAN,\n    due_date DATE,\n    completion_date DATE,\n    priority INTEGER)\n````"
+    },
+    {
+        "key": "Python脚本编写",
+        "value":"你作为 Python 开发者，请帮我编写一个可运行的脚本满足以下用户需求。\n## 附加要求\n- 尽量提取小函数\n- 请给出脚本依赖库的安装命令\n\n## 用户需求\n1. 对一个给定目录data_dir下的所有csv文件，从文件里提取出名称为C1、C2的列的数据，并将他们保存在result.csv的文件中。\n2. 使用C1-C2生成新的C3列，如果C1-C2计算出现异常其值记为'-'。把C3保存在result.csv的文件中。"
     }
 ]
