@@ -9,15 +9,6 @@
     },
     {
         "key": "SQL生成",
-        "value": "作为一个数据库专家，请回答我关于数据库查询的相关问题。在{postgers}数据库里我有{1}张表，创建表的语句为：
-                    ```
-                    CREATE TABLE IF NOT EXISTS tasks
-                        (id SERIAL PRIMARY KEY,
-                        task TEXT NOT NULL,
-                        completed BOOLEAN,
-                        due_date DATE,
-                        completion_date DATE,
-                        priority INTEGER)
-                    ````"
+        "value": "作为一个数据库专家，请回答我关于数据库查询的相关问题。在{postgers}数据库里我有{1}张表，创建表的语句为：\n```\nCREATE TABLE IF NOT EXISTS tasks\n    (id SERIAL PRIMARY KEY,\n    task TEXT NOT NULL,\n    completed BOOLEAN,\n    due_date DATE,\n    completion_date DATE,\n    priority INTEGER)\n````"
     }
 ]
