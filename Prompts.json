@@ -14,5 +14,9 @@
     {
         "key": "Python脚本编写",
         "value":"你作为 Python 开发者，请帮我编写一个可运行的脚本满足以下用户需求。\n## 附加要求\n- 尽量提取小函数\n- 请给出脚本依赖库的安装命令\n\n## 用户需求\n1. 对一个给定目录data_dir下的所有csv文件，从文件里提取出名称为C1、C2的列的数据，并将他们保存在result.csv的文件中。\n2. 使用C1-C2生成新的C3列，如果C1-C2计算出现异常其值记为'-'。把C3保存在result.csv的文件中。"
+    },
+    {
+        "key": "Coverity告警修改",
+        "value": "请你作为Coverity专家，我提供一段C语言代码，并使用注释指出其中的Coverity告警，请帮我修改代码来消除告警。\n代码：```\n\nvoid foo()\n{\n    // cert_err33_c_violation: The error status of addr is not checked.\n    void *addr = malloc(sizeof(int));\n}\n```"
     }
 ]
