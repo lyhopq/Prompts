@@ -17,6 +17,6 @@
     },
     {
         "key": "Coverity告警修改",
-        "value": "请你作为Coverity专家，我提供一段C语言代码，并使用注释指出其中的Coverity告警，请帮我修改代码来消除告警。\n代码：```\n\nvoid foo()\n{\n    // cert_err33_c_violation: The error status of addr is not checked.\n    void *addr = malloc(sizeof(int));\n}\n```"
+        "value": "请你作为Coverity专家，我提供一段C语言代码，并使用注释指出其中的Coverity告警，请帮我修改代码来消除告警。\n代码：\n```\n\nvoid foo()\n{\n    // cert_err33_c_violation: The error status of addr is not checked.\n    void *addr = malloc(sizeof(int));\n}\n```"
     }
 ]
